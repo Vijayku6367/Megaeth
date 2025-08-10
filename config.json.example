@@ -1,0 +1,19 @@
+{
+    "api_key": "your_api_key_here",
+    "ip_user": "your_proxy_username",
+    "ip_password": "your_proxy_password",
+    "task": [
+        "faucet",
+        "bebop_swap_eth_to_weth",
+        "bebop_swap_weth_to_eth",
+        "cap_mint_cusd",
+        "gte_swap_token",
+        "gte_swap_all_tokens_to_eth",
+        "onchaingm_send_gm",
+        "teko_faucet",
+        "teko_stake",
+        "teko_unstake",
+        "nacci"
+    ],
+    "is_random": true
+}

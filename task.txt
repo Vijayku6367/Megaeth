@@ -1,0 +1,30 @@
+
+可用任务名称：可用任务说明
+faucet:官方领水
+bebop_swap_eth_to_weth:bebop兑换eth为weth
+bebop_swap_weth_to_eth:bebop兑换weth为eth
+cap_mint_cusd:cap铸造cusd
+gte_swap_token:gte随机兑换
+gte_swap_all_tokens_to_eth:gte兑换所有token为eth
+onchaingm_send_gm:onchaingm发送gm
+teko_faucet:teko领水
+teko_stake:teko质押
+teko_unstake:teko解质押
+
+配置任务示例
+1.顺序执行任务
+{
+  "api_key": "your_api_key",
+  "ip_user": "your_ip_user",
+  "ip_password": "ip_password",
+  "task": ["faucent", "bebop_swap_eth_to_weth", "cap_mint_cusd"],
+  "is_random": false
+}
+2.随机执行任务
+{
+  "api_key": "your_api_key",
+  "ip_user": "your_ip_user",
+  "ip_password": "ip_password",
+  "task": ["faucent", "bebop_swap_eth_to_weth", "cap_mint_cusd","teko_unstake"],
+  "is_random": true
+}
